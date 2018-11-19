@@ -27,6 +27,12 @@
 
 .language-nav ul {
 	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.language-nav li:first-child {
+  font-weight: 700;
 }
 
 .logo {
@@ -40,11 +46,20 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+  flex-direction: row;
 }
 
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+}
+.masthead-links li:last-child {
+	margin-left: 10px;
+	border-right: 0px;
+}
+
+.masthead-links span {
+  color: green;
 }
 
 .masthead-links button {

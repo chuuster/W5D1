@@ -31,6 +31,18 @@ button:hover {
 	border-color: #4d7b9f;
 }
 
+.link:hover {
+  text-decoration: underline;  
+}
+
+.gray-hover:hover {
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
 /*
 	Header Rules
 */

@@ -29,6 +29,7 @@
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
   background-color: $lightest-gray;
+  cursor: pointer;
 }
 
 .left-nav span {
