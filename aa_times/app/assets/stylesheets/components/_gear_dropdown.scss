@@ -13,4 +13,35 @@
   color: darkgray;
   width: 200px;
   right: 0px;
+  top: 20px;
+  z-index: 1;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
 }
+
+.dropdown-subtitle {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 20px 0px;
+}
+
+.editions li:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.help li:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.editions span, .editions li, .dropdown-subtitle, .help li {
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+
+.editions li:last-child {
+  border-bottom: 1px solid lightgray;
+}
+
+
