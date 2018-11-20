@@ -2535,3 +2535,17 @@ Completed 200 OK in 118ms (Views: 112.9ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/AA_Times_Logo.png" for ::1 at 2018-11-19 17:17:33 -0800
 Started GET "/assets/application.self-45ab8f06c4dddc504d0b092205fe108bb8cabd730b530a3434019943cecd391c.css?body=1" for ::1 at 2018-11-19 17:17:33 -0800
+Started GET "/" for ::1 at 2018-11-19 17:21:13 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (2.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 270ms (Views: 227.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2018-11-19 17:21:14 -0800
